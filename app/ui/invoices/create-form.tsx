@@ -10,7 +10,7 @@ import {
 import { Button } from '@/app/ui/button';
 import { createInvoice, State } from '@/app/lib/actions';
 import { useActionState } from 'react';
-import { init } from 'next/dist/compiled/webpack/webpack';
+// import { init } from 'next/dist/compiled/webpack/webpack';
 
 export default function Form({ customers }: { customers: CustomerField[] }) {
   const initialState: State = { message: null, errors: {} };
